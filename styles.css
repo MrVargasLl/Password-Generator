@@ -95,7 +95,7 @@ body {
     margin-left: 5px;
 }
 
-button {
+.boton {
     background-color: #a5ffaf;
     color: rgb(6, 6, 6);
     padding: 10px 20px;
@@ -106,7 +106,7 @@ button {
     font-size: 18px;
 }
 
-button:hover {
+.boton:hover {
     background-color: #45a049;
 }
 
@@ -123,9 +123,26 @@ button:hover {
     border-radius: 5px;
 }
 
-.medium {
-    background-color: #f4d03f;
-    width: 50%;
-}
 
 /****************/
+
+#strengthIndicator.veryweak {
+    background-color: red;
+    width: 25%; }
+#strengthIndicator.weak     { 
+    background-color: orange;
+    width: 50%; }
+#strengthIndicator.medium   { 
+    background-color: yellow;
+    width: 75%; }
+#strengthIndicator.strong { 
+    background-color: green;
+    width: 100%; }
+
+    .btncopy{
+        background-color: transparent;
+        border: none;
+    }
+.btncopy:active {
+    border: 1px solid transparent;
+}
